@@ -5,7 +5,11 @@ import Polyclinic.Patient.Patient;
 import java.util.ArrayDeque;
 
 public class Polyclinic {
+    //выбрал дек так как у него есть ссылка на начало и конец, как раз то что нужно,
+    //хотя можно было взять и реализацию с только зобавлением в конес и взятием с начала
     private ArrayDeque<Patient> queue = new ArrayDeque<>();
+    //взял не особо думая над выбором, нам просто нужно их где то складирывать,
+    //хотя потом пожалел, когда вывод надо мыло делать.
     private ArrayDeque<Patient> patientCare = new ArrayDeque<>();
     private int NumberPatientVisits;
 

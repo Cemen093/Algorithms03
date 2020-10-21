@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Algorithms03 {
     public static void main(String[] args) {
-        Polyclinic pol = new Polyclinic(8);
+        Polyclinic pol = new Polyclinic(4);
 
         /*pol.addPatient(new Patient("Джон","Муржской"));
         pol.addPatient(new Patient("Майк","Муржской"));
