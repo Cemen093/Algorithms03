@@ -6,17 +6,18 @@ import java.util.Scanner;
 public class Algorithms03 {
     public static void main(String[] args) {
         Polyclinic pol = new Polyclinic(4);
-
-        /*pol.addPatient(new Patient("Джон","Муржской"));
+        /*
+        pol.addPatient(new Patient("Джон","Муржской"));
         pol.addPatient(new Patient("Майк","Муржской"));
         pol.addPatient(new Patient("Клара","Женский"));
         pol.addPatient(new Patient("Адам","Муржской"));
         pol.addPatient(new Patient("Оля","Женский"));
-        pol.addPatient(new Patient("Коля","Муржской"));*/
+        pol.addPatient(new Patient("Коля","Муржской"));
+        */
 
         tho: while (true) {
             Scanner scanner = new Scanner(System.in);
-            System.out.println("Выберите действие\n" +
+            System.out.print("Выберите действие\n" +
                     "1. Добавить пациента\n" +
                     "2. Установить количество принемаемых пациентов\n" +
                     "3. Начать рабору\n" +
